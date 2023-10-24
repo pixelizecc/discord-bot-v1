@@ -23,7 +23,7 @@ These instructions will help you set up and run the Pixelize CC Discord bot on y
 1\. **Fork this repository and make a clone in your local machine:**
 
    ```sh
-   git clone https://github.com/yourusername/pixelize-cc.git
+   git clone https://github.com/pixelizecc/discord-bot-v1.git
    cd pixelize-cc
    npm install
    ```
