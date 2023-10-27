@@ -16,7 +16,7 @@ These instructions will help you set up and run the Pixelize CC Discord bot on y
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/) - Make sure you have Node.js installed.
-- [Discord Developer Portal](https://discord.com/developers/applications) - Create a bot application and obtain the token.
+- [Discord Developer Portal](https://discord.com/developers/applications) - Create a bot application and obtain the token. Then scroll down and enable all "Privileged Gateway Intents."
 
 ### Installation
 
@@ -46,8 +46,13 @@ These instructions will help you set up and run the Pixelize CC Discord bot on y
 
 The bot should now be running on your server.
 
+## Inviting
+To invite your bot to your server, copy the following url into your browser after filling in the bot's id:
+```
+https://discord.com/api/oauth2/authorize?client_id=<BOT-ID>&permissions=1634734566647&scope=bot%20applications.commands
+```
+
 ## Usage
-Invite the bot to your Discord server using the invite link provided in the Discord Developer Portal.
 Configure and customize the bot's functionality to suit your server's needs.
 Use the command prefix to interact with the bot and enjoy its features.
 
